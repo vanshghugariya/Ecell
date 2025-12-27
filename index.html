@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecell</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
+</head>
+<body>
+<div class="container">
+    <!-- Background Video -->
+    <video class="back-vid" autoplay loop muted playsinline>
+        <source src="videos/galaxy.mp4" type="video/mp4">
+    </video>
+
+    <!-- HEADER -->
+    <header data-aos="fade-down" data-aos-duration="2000">
+        <div class="left">
+            <img src="images/E-cell_white.png" alt="E-cell Logo">
+        </div>
+
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="box-icons">
+            <p><i class="bx bxl-youtube"></i></p>
+            <p><i class="bx bxl-github"></i></p>
+            <p><i class="bx bxl-linkedin-square"></i></p>
+        </div>
+
+        <div class="menu-icon" id="menuIcon">
+            <i class="bx bx-menu"></i>
+        </div>
+    </header>
+
+        <!-- MOBILE MENU -->
+    <div class="menu-overlay" id="menuOverlay"></div>
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="close-menu" id="closeMenu">
+            <i class="bx bx-x"></i>
+        </div>
+
+        <ul>
+            <li><a href="#home" class="menu-link">Home</a></li>
+            <li><a href="#about" class="menu-link">About</a></li>
+            <li><a href="#projects" class="menu-link">Projects</a></li>
+            <li><a href="#speakers" class="menu-link">Speakers</a></li>
+            <li><a href="#contact" class="menu-link">Contact</a></li>
+        </ul>
+
+        <div class="mobile-social">
+            <i class="bx bxl-youtube"></i>
+            <i class="bx bxl-github"></i>
+            <i class="bx bxl-linkedin-square"></i>
+        </div>
+    </div>
+
+    <!-- BLACKHOLE VIDEO -->
+    <div class="blackhole-box" data-aos="fade-down" data-aos-duration="2000">
+        <video autoplay loop muted playsinline>
+            <source src="videos/blackhole.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+        <div class="hero-info autoBlur" data-aos="fade-right" data-aos-duration="1000">
+            <div class="hero-info-title">
+                <i class="bx bxl-sketch"></i>
+                Medi-Caps University
+            </div>
+
+            <h1 data-aos="fade-right" data-aos-duration="3000">
+                Entrepreneurship <span class="gradient">Cell</span>
+            </h1>
+
+            <p>
+                Empowering the next generation of entrepreneurs through innovation, mentorship, and hands-on experience. Join us in building the future of business and technology.
+            </p>
+
+            <button>
+                <i class="bx bx-send"></i> Join now
+            </button>
+        </div>
+
+        <div class="skills-video-box">
+            <video class="skills-video autoBlur" autoplay loop muted playsinline>
+                <source src="videos/hero-video.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="scroll-down"></div>
+    </section>
+
+    <!-- INFO SECTION -->
+    <section class="info-section" id="about">
+        <h1 class="section-title autoDisplay">What is E-cell?</h1>
+
+        <div class="info-cards">
+            <div class="card">
+                <h1>About Us</h1>
+                <p>The Entrepreneurship Cell at Medi-Caps University fosters innovation and entrepreneurial spirit among students through workshops, events, and mentorship programs.</p>
+                <img src="images/grid1.png" alt="About Us">
+            </div>
+
+            <div class="card">
+                <h1>Our Mission</h1>
+                <p>To create a vibrant ecosystem that nurtures entrepreneurial talent, provides resources for startup development, and connects students with industry leaders.</p>
+                <img src="images/grid2.png" alt="Our Mission">
+            </div>
+
+            <div class="card">
+                <h1>Join Our Community</h1>
+                <p>Be part of an active community of innovators, dreamers, and doers. Network with like-minded individuals and turn your ideas into reality.</p>
+                <video autoplay loop muted playsinline>
+                    <source src="videos/glob.mp4" type="video/mp4">
+                </video>
+                <button><i class="bx bx-send"></i> Contact Us</button>
+            </div>
+
+            <div class="card">
+                <h1>Our Impact</h1>
+                <p>Over the years, we've helped launch numerous successful startups, organized 50+ events, and created a network of 1000+ entrepreneurs across various industries.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section class="my-project" id="projects">
+        <h1 class="section-title autoDisplay">Our Events</h1>
+
+        <div class="project-card">
+            <div class="project-vidbox">
+                <video autoplay loop muted playsinline>
+                    <source src="videos/project1.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <div class="project-info">
+                <h1>E-Summit 2024</h1>
+                <p>Our flagship event bringing together entrepreneurs, investors, and innovators from across the country. Experience keynote speeches, startup competitions, and networking opportunities that can transform your entrepreneurial journey.</p>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-info">
+                <h1>Saarthi</h1>
+                <p>An intensive 6-week program designed to accelerate your startup ideas. Get hands-on mentorship, resources, and funding opportunities to bring your vision to life.</p>
+                
+            </div>
+
+            <div class="project-vidbox">
+                <video autoplay loop muted playsinline>
+                    <source src="videos/project2.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-vidbox">
+                <video autoplay loop muted playsinline>
+                    <source src="videos/project1.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <div class="project-info">
+                <h1>VisionX</h1>
+                <p>Our flagship event bringing together entrepreneurs, investors, and innovators from across the country. Experience keynote speeches, startup competitions, and networking opportunities that can transform your entrepreneurial journey.</p>
+                
+            </div>
+        </div>
+          <div class="project-card">
+            <div class="project-info">
+                <h1>IPL Auction</h1>
+                <p>An intensive 6-week program designed to accelerate your startup ideas. Get hands-on mentorship, resources, and funding opportunities to bring your vision to life.</p>
+                
+            </div>
+
+            <div class="project-vidbox">
+                <video autoplay loop muted playsinline>
+                    <source src="videos/project2.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section class="skills-section" id="skills">
+        <h1 class="section-title autoDisplay">What We Offer</h1>
+        
+        <div class="skills-content">
+            <div class="skill-text">
+                <h1><i class="bx bx-code-alt"></i> Innovation Hub</h1>
+                <p>Access cutting-edge resources, mentorship from industry experts, and a collaborative workspace designed to fuel your entrepreneurial dreams. Our innovation hub provides everything you need to transform ideas into successful ventures.</p>
+            </div>
+
+            <div class="skill-text">
+                <h1><i class="bx bx-brain"></i> Learning & Development</h1>
+                <p>Participate in workshops, seminars, and training programs that enhance your business acumen, technical skills, and leadership capabilities. Learn from successful entrepreneurs and industry professionals.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SPEAKERS SECTION -->
+    <section class="speakers-section" id="speakers">
+        <h1 class="section-title autoDisplay">Our Past Speakers</h1>
+        <div class="speakers-slider">
+            <div class="speakers-track">
+                <!-- First set of speakers -->
+                <div class="speaker-item">
+                    <img src="images/speakers/18.png" alt="Rahul Samrat">
+                    <div class="speaker-info-overlay">
+                        <h3>RAHUL SAMRAT</h3>
+                        <p>CO-FOUNDER OF WORK STUDIO COWORKING</p>
+                    </div>
+                </div>
+
+                <div class="speaker-item">
+                    <img src="images/speakers/1.png" alt="Siddarth Rajhans">
+                    <div class="speaker-info-overlay">
+                        <h3>Siddarth Rajhans</h3>
+                        <p>ENTREPRENEUR, HARVARD UNIVERSITY RESEARCHER, AND SILICON VALLEY TECHIE</p>
+                    </div>
+                </div>
+
+                <div class="speaker-item">
+                    <img src="images/speakers/2.png" alt="Vikas Singh">
+                    <div class="speaker-info-overlay">
+                        <h3>Vikas Singh</h3>
+                        <p>ENTREPRENEUR BUSINESS COACH, AUTHOR, AND SPEAKER</p>
+                    </div>
+                </div>
+
+                <div class="speaker-item">
+                    <img src="images/speakers/3.png" alt="Dr. Priyanka Mokshmar">
+                    <div class="speaker-info-overlay">
+                        <h3>Dr. PRIYANKA MOKSHMAR</h3>
+                        <p>LEADING INNOVATION GREEN AIR COOLING SOLUTION</p>
+                    </div>
+                </div>
+
+                <div class="speaker-item">
+                    <img src="images/speakers/4.png" alt="Tanutejas Saraswat">
+                    <div class="speaker-info-overlay">
+                        <h3>Tanutejas Saraswat</h3>
+                        <p>CEO & FOUNDER - SHOPKIRANA</p>
+                    </div>
+                </div>
+
+                <div class="speaker-item">
+                    <img src="images/speakers/10.png" alt="Rishi Raj">
+                    <div class="speaker-info-overlay">
+                        <h3>Rishi Raj</h3>
+                        <p>FOUNDER OF MUSKAAN DREAMS</p>
+                    </div>
+                </div>
+
+                <div class="speaker-item">
+                    <img src="images/speakers/11.png" alt="Ankit Poddar">
+                    <div class="speaker-info-overlay">
+                        <h3>Ankit Poddar</h3>
+                        <p>CHIEF SALES AND MARKETING OFFICER AT CHAI KAPPI</p>
+                    </div>
+                </div>
+
+                <div class="speaker-item">
+                    <img src="images/speakers/12.png" alt="Anu Meena">
+                    <div class="speaker-info-overlay">
+                        <h3>Anu Meena</h3>
+                        <p>FOUNDER AND CEO OF AGROWAVE</p>
+                    </div>
+                </div>
+
+                <div class="speaker-item">
+                    <img src="images/speakers/13.png" alt="Suyash Thakur">
+                    <div class="speaker-info-overlay">
+                        <h3>Suyash Thakur</h3>
+                        <p>CO-FOUNDER AND CEO OF CHAI KAPPI</p>
+                    </div>
+                </div>
+
+                <div class="speaker-item">
+                    <img src="images/speakers/14.png" alt="Nehul Agrawal">
+                    <div class="speaker-info-overlay">
+                        <h3>Nehul Agrawal</h3>
+                        <p>MANAGING DIRECTOR AT FODUU</p>
+                    </div>
+                </div>
+
+                <div class="speaker-item">
+                    <img src="images/speakers/15.png" alt="Anurag Agrawal">
+                    <div class="speaker-info-overlay">
+                        <h3>Anurag Agrawal</h3>
+                        <p>FOUNDER JAWABDO ACCUMULATORS</p>
+                    </div>
+                </div>
+
+                <div class="speaker-item">
+                    <img src="images/speakers/16.png" alt="Saurabh Shrivastava">
+                    <div class="speaker-info-overlay">
+                        <h3>Saurabh Shrivastava</h3>
+                        <p>FOUNDER MANGOSTEEN.ECO LIFESTYLE</p>
+                    </div>
+                </div>
+
+                <div class="speaker-item">
+                    <img src="images/speakers/17.png" alt="Alok Kumar Singh">
+                    <div class="speaker-info-overlay">
+                        <h3>ALOK KUMAR SINGH</h3>
+                        <p>CO-FOUNDER OF WORK STUDIO COWORKING</p>
+                    </div>
+                </div>
+
+                <!-- Duplicate set for seamless loop -->
+                <div class="speaker-item">
+                    <img src="images/speakers/18.png" alt="Rahul Samrat">
+                    <div class="speaker-info-overlay">
+                        <h3>RAHUL SAMRAT</h3>
+                        <p>CO-FOUNDER OF WORK STUDIO COWORKING</p>
+                    </div>
+                </div>
+
+                <div class="speaker-item">
+                    <img src="images/speakers/1.png" alt="Siddarth Rajhans">
+                    <div class="speaker-info-overlay">
+                        <h3>Siddarth Rajhans</h3>
+                        <p>ENTREPRENEUR, HARVARD UNIVERSITY RESEARCHER, AND SILICON VALLEY TECHIE</p>
+                    </div>
+                </div>
+
+                <div class="speaker-item">
+                    <img src="images/speakers/2.png" alt="Vikas Singh">
+                    <div class="speaker-info-overlay">
+                        <h3>Vikas Singh</h3>
+                        <p>ENTREPRENEUR BUSINESS COACH, AUTHOR, AND SPEAKER</p>
+                    </div>
+                </div>
+
+                <div class="speaker-item">
+                    <img src="images/speakers/3.png" alt="Dr. Priyanka Mokshmar">
+                    <div class="speaker-info-overlay">
+                        <h3>Dr. PRIYANKA MOKSHMAR</h3>
+                        <p>LEADING INNOVATION GREEN AIR COOLING SOLUTION</p>
+                    </div>
+                </div>
+
+                <div class="speaker-item">
+                    <img src="images/speakers/4.png" alt="Tanutejas Saraswat">
+                    <div class="speaker-info-overlay">
+                        <h3>Tanutejas Saraswat</h3>
+                        <p>CEO & FOUNDER - SHOPKIRANA</p>
+                    </div>
+                </div>
+
+                <div class="speaker-item">
+                    <img src="images/speakers/10.png" alt="Rishi Raj">
+                    <div class="speaker-info-overlay">
+                        <h3>Rishi Raj</h3>
+                        <p>FOUNDER OF MUSKAAN DREAMS</p>
+                    </div>
+                </div>
+
+                <div class="speaker-item">
+                    <img src="images/speakers/11.png" alt="Ankit Poddar">
+                    <div class="speaker-info-overlay">
+                        <h3>Ankit Poddar</h3>
+                        <p>CHIEF SALES AND MARKETING OFFICER AT CHAI KAPPI</p>
+                    </div>
+                </div>
+
+                <div class="speaker-item">
+                    <img src="images/speakers/12.png" alt="Anu Meena">
+                    <div class="speaker-info-overlay">
+                        <h3>Anu Meena</h3>
+                        <p>FOUNDER AND CEO OF AGROWAVE</p>
+                    </div>
+                </div>
+
+                <div class="speaker-item">
+                    <img src="images/speakers/13.png" alt="Suyash Thakur">
+                    <div class="speaker-info-overlay">
+                        <h3>Suyash Thakur</h3>
+                        <p>CO-FOUNDER AND CEO OF CHAI KAPPI</p>
+                    </div>
+                </div>
+
+                <div class="speaker-item">
+                    <img src="images/speakers/14.png" alt="Nehul Agrawal">
+                    <div class="speaker-info-overlay">
+                        <h3>Nehul Agrawal</h3>
+                        <p>MANAGING DIRECTOR AT FODUU</p>
+                    </div>
+                </div>
+
+                <div class="speaker-item">
+                    <img src="images/speakers/15.png" alt="Anurag Agrawal">
+                    <div class="speaker-info-overlay">
+                        <h3>Anurag Agrawal</h3>
+                        <p>FOUNDER JAWABDO ACCUMULATORS</p>
+                    </div>
+                </div>
+
+                <div class="speaker-item">
+                    <img src="images/speakers/16.png" alt="Saurabh Shrivastava">
+                    <div class="speaker-info-overlay">
+                        <h3>Saurabh Shrivastava</h3>
+                        <p>FOUNDER MANGOSTEEN.ECO LIFESTYLE</p>
+                    </div>
+                </div>
+
+                <div class="speaker-item">
+                    <img src="images/speakers/17.png" alt="Alok Kumar Singh">
+                    <div class="speaker-info-overlay">
+                        <h3>ALOK KUMAR SINGH</h3>
+                        <p>CO-FOUNDER OF WORK STUDIO COWORKING</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SPONSORS SECTION -->
+<section class="sponsors-section">
+        <h1 class="section-title autoDisplay">Past Sponsors</h1>
+        <div class="sponsors-slider">
+            <div class="sponsors-track">
+                <!-- First set of sponsors -->
+                <div class="sponsor-item"><img src="images/Sponsor1.jpg" alt="Edusquare"></div>
+                <div class="sponsor-item"><img src="images/Sponsor2.jpg" alt="Wittyfeed"></div>
+                <div class="sponsor-item"><img src="images/Sponsor3.jpg" alt="Eship Simplified"></div>
+                <div class="sponsor-item"><img src="images/Sponsor4.jpg" alt="IEN"></div>
+                <div class="sponsor-item"><img src="images/Sponsor5.jpg" alt="Digital Gurukul"></div>
+                <div class="sponsor-item"><img src="images/Sponsor6.jpg" alt="Digital Gurukul"></div>
+                <div class="sponsor-item"><img src="images/Sponsor7.jpg" alt="Digital Gurukul"></div>
+                <div class="sponsor-item"><img src="images/Sponsor8.jpg" alt="Digital Gurukul"></div>
+                <div class="sponsor-item"><img src="images/Sponsor9.jpg" alt="Digital Gurukul"></div>
+                <div class="sponsor-item"><img src="images/Sponsor10.jpg" alt="Digital Gurukul"></div>
+                <div class="sponsor-item"><img src="images/Sponsor11.jpg" alt="Digital Gurukul"></div>
+                <div class="sponsor-item"><img src="images/Sponsor12.jpg" alt="Digital Gurukul"></div>
+                <div class="sponsor-item"><img src="images/Sponsor13.jpg" alt="Digital Gurukul"></div>
+
+                <!-- Duplicate set for seamless loop -->
+                <div class="sponsor-item"><img src="images/Sponsor1.jpg" alt="Edusquare"></div>
+                <div class="sponsor-item"><img src="images/Sponsor2.jpg" alt="Wittyfeed"></div>
+                <div class="sponsor-item"><img src="images/Sponsor3.jpg" alt="Eship Simplified"></div>
+                <div class="sponsor-item"><img src="images/Sponsor4.jpg" alt="IEN"></div>
+                <div class="sponsor-item"><img src="images/Sponsor5.jpg" alt="Digital Gurukul"></div>
+                <div class="sponsor-item"><img src="images/Sponsor6.jpg" alt="Digital Gurukul"></div>
+                <div class="sponsor-item"><img src="images/Sponsor7.jpg" alt="Digital Gurukul"></div>
+                <div class="sponsor-item"><img src="images/Sponsor8.jpg" alt="Digital Gurukul"></div>
+                <div class="sponsor-item"><img src="images/Sponsor9.jpg" alt="Digital Gurukul"></div>
+                <div class="sponsor-item"><img src="images/Sponsor10.jpg" alt="Digital Gurukul"></div>
+                <div class="sponsor-item"><img src="images/Sponsor11.jpg" alt="Digital Gurukul"></div>
+                <div class="sponsor-item"><img src="images/Sponsor12.jpg" alt="Digital Gurukul"></div>
+                <div class="sponsor-item"><img src="images/Sponsor13.jpg" alt="Digital Gurukul"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact-section" id="contact">
+        <h1 class="section-title">Let's Connect 😊</h1>
+
+        <div class="contact-content">
+            <div class="social-box">
+                <a href="tel:+391112224444">
+                    <i class="bx bx-phone"></i>
+                    +39 111 222 444
+                </a>
+                <a href="mailto:ecell@medicaps.com">
+                    <i class="bx bx-envelope"></i>
+                    Ecell-Medicaps.com
+                </a>
+                <a href="#">
+                    <i class="bx bxl-linkedin"></i>
+                    linkedin.com/ecell
+                </a>
+                <div style="display: flex; gap: 20px; margin-top: 20px;">
+                    <a href="#"><i class="bx bxl-youtube" style="font-size: 35px;"></i></a>
+                    <a href="#"><i class="bx bxl-twitter" style="font-size: 35px;"></i></a>
+                    <a href="#"><i class="bx bxl-facebook" style="font-size: 35px;"></i></a>
+                </div>
+            </div>
+
+            <div class="contact-box">
+                <p>Full Name</p>
+                <input type="text" placeholder="Your Full name">
+                
+                <p>Email Address</p>
+                <input type="email" placeholder="Your Email">
+                
+                <p>Your Message</p>
+                <textarea placeholder="Share your thoughts..."></textarea>
+                
+                <button><i class="bx bx-send"></i> Send Message</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <div class="footer">
+        <p>© 2024 E-Cell Medi-Caps University. All rights reserved.</p>
+        <p>Made with ❤️ by E-Cell Team</p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+<!-- <script>
+    AOS.init();
+</script> -->
+</body>
+</html>
